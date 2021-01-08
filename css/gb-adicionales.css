@@ -1,4 +1,204 @@
+/* ---- ESTILOS GENERALES ----*/
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/futura_medium/FuturaBT-Medium.eot');
+    src: url('../fonts/futura_medium/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futura_medium/FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/futura_medium/FuturaBT-Medium.woff') format('woff'),
+        url('../fonts/futura_medium/FuturaBT-Medium.ttf') format('truetype'),
+        url('../fonts/futura_medium/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
 
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.eot');
+    src: url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.woff') format('woff'),
+        url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.ttf') format('truetype'),
+        url('../fonts/FuturaBT-Heavy/FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frutiger LT Std';
+    src: url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot');
+    src: url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff2') format('woff2'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff') format('woff'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf') format('truetype'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.svg#FrutigerLTStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+body{
+    font-family: 'Futura Md BT';
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.tabs-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.suscribe-active{
+    background-color: #008542 !important;
+    color: white;
+}
+.suscribe-active p{
+    color: white;
+}
+
+.suscribe-inactive{
+    background-color: #DEE2E6 !important;
+}
+.suscribe-inactive p {
+    color: #63259D !important;
+}
+
+.suscribe-alambrico{
+    background-color: #DEE2E6;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscribe-inalambrico{
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscribe-satelital{
+    background-color: #DEE2E6;
+    padding: 7px 22px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.suscribe-text{
+    font-family: 'Frutiger LT Std';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+
+.alambrico-container{
+    padding: 0px 25px;
+}
+
+.inalambrico-container{
+    padding: 0px 25px;
+}
+.satelital-container{
+    padding: 0px 25px;
+}
+.blue-container{
+    width: 100%;
+    background-color: #512F84;
+    padding: 10px 15px 25px 15px;
+    margin-bottom: 15px;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hasta-text{
+    font-family: 'Futura Md BT';
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+
+.capacidad-text{
+    font-family: 'Futura Md BT';
+    color: #95C841;
+    text-align: center;
+    margin: 0px;
+    line-height: 1;
+}
+.alambrico-container .yellow-container:after {
+    top: 206px;
+}
+
+.yellow-container{
+    background-color: #BDD530;
+    border: solid 2px #ffffff;
+    padding: 15px;
+    margin-left: -35px;
+    margin-right: -35px;
+    text-align: center;
+}
+
+.yellow-container:after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(189, 213, 48, 1);
+    top: 242px;
+    left: 46%;
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #96c942;
+    margin-top: 5px;
+}
+
+
+.footer-inst {
+    font-size: 0.8rem;
+}
+.footer-inst_alt {
+    font-size: 0.6rem;
+}
+
+
+/* ---- ESTILOS ADICIONALES ----*/
+
+
+h1, h2, h3 {
+    font-family: 'Frutiger LT Std';
+    src: url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot');
+    src: url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff2') format('woff2'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.woff') format('woff'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.ttf') format('truetype'),
+        url('../fonts/FrutigerLTStd-Black/FrutigerLTStd-Black.svg#FrutigerLTStd-Black') format('svg');
+   
+    font-style: normal;
+}
+
+.compra-text {
+    text-align: center;
+}
     .compra {
         font-family: frutiger LT;
         font-size: 15px;
