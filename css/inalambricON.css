@@ -652,24 +652,10 @@ h1, h2, h3 {
         width: 40px;
     }
 
-    .compra {
-        font-family: frutiger LT;
-        font-size: 15px;
-        color: #4E5154;
-        text-align: left;
-    
-    }
     .title {
         font-family: futura-Medium;
         font-size: 30px;
         color: purple;
-    }
-    .telefono-gbad {
-        background-color: #512F84;
-        color: white;
-        font-family: Frutiger LT;
-        margin-right: 685px;
-        text-align: center;
     }
     #text {
         font-family: futura-medium;

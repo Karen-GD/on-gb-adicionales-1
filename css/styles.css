@@ -46,6 +46,9 @@ body{
     background-color: #ffffff;
     color: #000;
 }
+.compra-text {
+    text-align: center;
+}
 
 .tabs-container{
     display: -webkit-box;
