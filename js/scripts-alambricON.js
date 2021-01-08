@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".internet-contains").show();
+    $(".tel-contains").hide();
+    $("#suscribe-internet").click(function(){
+        $(".internet-contains").show();
+        $(".tel-contains").hide();
+        $("#suscribe-internet").addClass("suscribe-sat-active");
+        $("#suscribe-internet").removeClass("suscribe-sat-inactive");
+        $("#suscribe-tel").addClass("suscribe-sat-inactive");
+        $("#suscribe-tel").removeClass("suscribe-sat-active");
+    });
+    $("#suscribe-tel").click(function(){
+        $(".tel-contains").show();
+        $(".internet-contains").hide();
+        $("#suscribe-tel").removeClass("suscribe-sat-inactive");
+        $("#suscribe-tel").addClass("suscribe-sat-active");
+        $("#suscribe-internet").removeClass("suscribe-sat-active");
+        $("#suscribe-internet").addClass("suscribe-sat-inactive");
+    });
+});

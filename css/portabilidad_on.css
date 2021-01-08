@@ -1,0 +1,84 @@
+body {
+    color: #512F84;
+}
+.header-purple {
+    background-color: #512F84;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.title {
+    color: #512F84;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
+}
+.strong-t {
+    color: #512F84;
+}
+.h-gray {
+    color: #4E5154;
+}
+.gray-stripe {
+    background-color: #F4F4F5;
+    padding: 20px 0;
+}
+.white-stripe {
+    background-color: white;
+    padding: 20px 0;
+}
+.steps {
+    width: 65%;
+}
+.step-text {
+    color: #512F84;
+}
+.small-text {
+    color: #4E5154;
+}
+.formato-download {
+    text-decoration: underline;
+    color: #512F84;
+}
+.strong-small {
+    color: #512F84;
+}
+.dudas {
+    background-color: #BDD630;
+    padding: 20px 0;
+    text-align: center;
+}
+.strong-dudas {
+    font-weight: bolder;
+}
+.terminos {
+    text-align: center;
+    color: #212528;
+}
+.step-container {
+    text-align: right;
+}
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+ 
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }

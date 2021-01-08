@@ -1,0 +1,36 @@
+$(document).ready(function(){
+        $(".alambrico-contains").hide();
+        $(".suscribe-alambrico").addClass("suscribe-inactive");
+        $(".suscribe-inalambrico").addClass("suscribe-active");
+        $(".suscribe-satelital").addClass("suscribe-inactive");
+
+        
+        $("#suscribe-inalambrico").click(function(){
+            $(".inalambrico-contains").show();
+            $(".alambrico-contains").hide();
+            $(".satelital-contains").hide();
+            $(".suscribe-inalambrico").addClass("suscribe-active");
+            $(".suscribe-inalambrico").removeClass("suscribe-inactive");
+            $(".suscribe-alambrico").addClass("suscribe-inactive");
+            $(".suscribe-satelital").addClass("suscribe-inactive");
+        });
+        $("#suscribe-alambrico").click(function(){
+            $(".alambrico-contains").show();
+            $(".inalambrico-contains").hide();
+            $(".satelital-contains").hide();
+            $(".suscribe-alambrico").addClass("suscribe-active");
+            $(".suscribe-alambrico").removeClass("suscribe-inactive");
+            $(".suscribe-satelital").addClass("suscribe-inactive");  
+            $(".suscribe-inalambrico").addClass("suscribe-inactive");    
+        });
+        $(".satelital-contains").hide();
+        $("#suscribe-satelital").click(function(){
+            $(".satelital-contains").show();
+            $(".alambrico-contains").hide();
+            $(".inalambrico-contains").hide();
+            $(".suscribe-satelital").addClass("suscribe-active");
+            $(".suscribe-satelital").removeClass("suscribe-inactive");
+            $(".suscribe-alambrico").addClass("suscribe-inactive");
+            $(".suscribe-inalambrico").addClass("suscribe-inactive");
+        });
+    });

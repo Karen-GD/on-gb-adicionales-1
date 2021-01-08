@@ -1,0 +1,78 @@
+body {
+    color: #512F84;
+}
+.title-top {
+    background-color: #512F84;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.title-top small {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.flecha-down {
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid #512F84; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    position: absolute;
+    bottom: -24px;
+} 
+.tabla-fronteriza {
+    text-align: center;
+    color: #707070;
+}
+.tabla-fronteriza th{
+    background-color: #008542;
+    color: white;
+    border: 5px solid white;
+    width: 1px;
+}
+.tabla-fronteriza td {
+    background-color: #F4F4F5;
+    border: 5px solid white;
+    width: fit-content;
+}
+.municipios {
+    text-align: left;
+}
+.precios-frontera {
+    background-color: #E0E0E0;
+    text-align: center;
+}
+.precios-frontera .btn {
+    color: #512F84;
+    font-weight: bold;
+    font-style: none;
+}
+
+/*-------------RESPONSIVE--------------*/
+@media only screen and (max-width: 991px) {
+    .titulo-img {
+        height: 10vmin;
+        }
+  
+ 
+  @media only screen and (max-width: 800px) {
+    .titulo-img {
+        height: 10vmin;
+        }
+}
+  
+  @media only screen and (max-width: 700px){
+    .titulo-img {
+        height: 10vmin;
+    }
+}  
+@media only screen and (max-width: 500px){
+    .titulo-img {
+        height: 20vmin;
+    }
+    .migajas {
+        font-size: 1rem;
+    }
+}
