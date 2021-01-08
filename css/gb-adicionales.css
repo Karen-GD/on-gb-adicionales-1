@@ -110,7 +110,7 @@ body{
     padding: 0px 25px;
 }
 .blue-container{
-    width: 100%;
+    width: 109%;
     background-color: #512F84;
     padding: 10px 15px 25px 15px;
     margin-bottom: 15px;
@@ -213,3 +213,84 @@ h1, h2, h3 {
         font-family: Frutiger LT;
         text-align: center;
     }
+    .divider-alt {
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        margin-top: 5px;
+    }
+    .gbad-yellow-container{
+        background-color: #BDD530;
+        border: solid 2px #ffffff;
+        padding: 15px;
+        margin-left: -35px;
+        margin-right: -35px;
+        text-align: center;
+    }
+    .gbad-yellow-container:after{
+        content: '';
+        position: absolute;
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid rgba(189, 213, 48, 1);
+        top: 93px;
+        left: 46%;
+    }
+    .btn-link{
+        margin-left: 525px;
+        color: #512F84;
+    }
+    .oninternet-collapse {
+        background-color: #512F84;
+        text-align: center;
+        color: white;
+        height: 58px;
+        padding: 64px;
+        padding-top: 7px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .fronterizo_1 {
+        text-align: center;
+        font-size: 24px;
+        color: #512F84;
+    }
+    .tabla-fronteriza {
+        text-align: center;
+        color: #707070;
+    }
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+    }
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+    }
+    .tabla-fronteriza th {
+        background-color: #008542;
+        color: #fff;
+        border: 5px solid #fff;
+        width: 1px;}
+    .tabla-fronteriza td {
+        background-color: #f4f4f5;
+        border: 5px solid #fff;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;}
+        
+    .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+   } 
+   
+   .precio {
+    font-family: futura, medium;
+    font-size: 54px;
+    color: #512F84;
+}
